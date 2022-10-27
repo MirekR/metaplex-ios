@@ -13,6 +13,7 @@ import Solana
 
 let mnemonic = ["across", "start", "ancient", "solid", "bid", "sentence", "visit", "old", "have", "hobby", "magic", "bomb", "boring", "grunt", "rule", "extra", "place", "strong", "myth", "episode", "dinner", "thrive", "wave", "decide"]
 
+@available(iOS 13.0.0, *)
 final class KeypairIdentityDriverTests: XCTestCase {
     
     let account = HotAccount(phrase: mnemonic, network: .mainnetBeta, derivablePath: .default)!
